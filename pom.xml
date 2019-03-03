@@ -10,7 +10,7 @@
     
     <groupId>srs</groupId>
     <artifactId>org-srs-webapps-datacat</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <version>0.4.4</version>
     <packaging>war</packaging>
 
     <name>SRS Webapps for DataCatalog</name>
@@ -37,37 +37,37 @@
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-groupmanager-jar</artifactId>
-            <version>1.38-SNAPSHOT</version>
+            <version>1.29</version>
         </dependency>
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-groupmanager-web</artifactId>
-            <version>1.38-SNAPSHOT</version>
+            <version>1.29</version>
         </dependency>
         
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-datacat-core</artifactId>
-            <version>0.5-SNAPSHOT</version>
+            <version>0.4.4</version>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-datacat-rest</artifactId>
-            <version>0.5-SNAPSHOT</version>
+            <version>0.4.4</version>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-datacat-client</artifactId>
-            <version>0.5-SNAPSHOT</version>
+            <version>0.4.4</version>
             <type>jar</type>
         </dependency>
         
         <dependency>
             <groupId>srs</groupId>
             <artifactId>org-srs-web-base</artifactId>
-            <version>2.29-SNAPSHOT</version>
+            <version>2.29</version>
         </dependency>
         <dependency>
             <groupId>opensymphony</groupId>
