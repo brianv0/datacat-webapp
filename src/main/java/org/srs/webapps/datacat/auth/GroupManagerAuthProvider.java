@@ -30,7 +30,7 @@ public class GroupManagerAuthProvider extends DcUserLookupService {
     private final LoadingCache<DcUser, Set<DcGroup>> groupsCache;
     
     public GroupManagerAuthProvider(){
-        rc = new RestClient("http://srs.slac.stanford.edu/GroupManager/rest");
+        rc = new RestClient("https://srs.slac.stanford.edu/GroupManager/rest");
         usersCache = CacheBuilder.newBuilder()
             .maximumSize(1000)
             .expireAfterWrite(30, TimeUnit.SECONDS)
